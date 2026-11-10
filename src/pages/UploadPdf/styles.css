@@ -1,0 +1,204 @@
+.pg-upload-pdf{--navy:#012169;--navy2:#073a78;--aqua:#8cd3e5;--mint:#b0f3e0;--blue:#2389ff;--green:#12b981;--amber:#ffb938;--red:#ef4444;--muted:#64809f;--line:#e4eff7;--shadow:0 8px 26px rgb(1 33 105 / 8%);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--navy)}
+.pg-upload-pdf, .pg-upload-pdf *{box-sizing:border-box}
+.pg-upload-pdf{margin:0;min-width:320px;background:linear-gradient(180deg,var(--aqua),var(--mint));font-size:13px}
+.pg-upload-pdf button, .pg-upload-pdf input, .pg-upload-pdf select, .pg-upload-pdf textarea{font:inherit}
+.pg-upload-pdf button{cursor:pointer}
+.pg-upload-pdf a{color:inherit;text-decoration:none}
+.pg-upload-pdf .shell{min-height:100vh}
+.pg-upload-pdf .sidebar{position:fixed;inset:0 auto 0 0;width:230px;padding:20px 12px;color:#fff;background:linear-gradient(165deg,#062a62,#073d78 65%,#075d83);overflow:auto}
+.pg-upload-pdf .brand{display:flex;align-items:center;gap:11px;margin:0 10px 28px}
+.pg-upload-pdf .brand-mark{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:#ffffff1f;font-weight:800;font-size:19px}
+.pg-upload-pdf .brand strong{font-size:20px}
+.pg-upload-pdf .brand small{display:block;color:#67e9ed;font-size:10px;margin-top:3px}
+.pg-upload-pdf .nav-label{margin:0 12px 9px;color:#9dc2e3;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+.pg-upload-pdf .nav{display:grid;gap:5px}
+.pg-upload-pdf .nav a{display:flex;align-items:center;gap:11px;min-height:40px;padding:0 11px;border-radius:10px;color:#e8f4ff;font-size:12px}
+.pg-upload-pdf .nav a:hover{background:#ffffff1a}
+.pg-upload-pdf .nav a.active{color:var(--navy);background:linear-gradient(110deg,#8ce9ee,#aef4df);font-weight:700}
+.pg-upload-pdf .nav-icon{width:18px;text-align:center}
+.pg-upload-pdf .main{margin-left:230px;min-height:100vh}
+.pg-upload-pdf .topbar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:16px;height:66px;padding:0 24px;border-bottom:1px solid #ffffff73;background:#8cd3e5cf;backdrop-filter:blur(14px)}
+.pg-upload-pdf .search{width:min(460px,52cqw);height:39px;padding:0 14px;border:1px solid #ffffffbf;border-radius:11px;background:#ffffffc7;color:var(--navy);outline:0}
+.pg-upload-pdf .top-spacer{flex:1}
+.pg-upload-pdf .top-btn{border:0;background:transparent;color:var(--navy);font-size:18px}
+.pg-upload-pdf .avatar{display:grid;place-items:center;width:35px;height:35px;border-radius:50%;color:#fff;background:var(--navy);font-weight:700}
+.pg-upload-pdf .profile{display:flex;align-items:center;gap:8px}
+.pg-upload-pdf .profile small{display:block;color:#50769a;font-size:10px;margin-top:2px}
+.pg-upload-pdf .content{padding:26px 28px 42px;max-width:1600px;margin:auto}
+.pg-upload-pdf .heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:20px}
+.pg-upload-pdf .heading h1{margin:0;font-size:29px;letter-spacing:-.7px}
+.pg-upload-pdf .heading p{margin:6px 0 0;color:#50769a}
+.pg-upload-pdf .actions{display:flex;gap:9px;flex-wrap:wrap}
+.pg-upload-pdf .btn{border:1px solid #d5e7f2;border-radius:9px;padding:10px 14px;background:#fff;color:var(--navy);font-weight:700}
+.pg-upload-pdf .btn.primary{border-color:var(--navy);color:#fff;background:var(--navy)}
+.pg-upload-pdf .btn.success{border-color:var(--green);color:#fff;background:var(--green)}
+.pg-upload-pdf .btn.danger{border-color:#ffd4d4;color:#c62828;background:#fff}
+.pg-upload-pdf .grid{display:grid;gap:16px}
+.pg-upload-pdf .kpis{grid-template-columns:repeat(5,minmax(0,1fr));margin-bottom:18px}
+.pg-upload-pdf .card{border:1px solid #ffffffa8;border-radius:13px;padding:18px;background:#fff;box-shadow:var(--shadow)}
+.pg-upload-pdf .kpi{min-height:120px}
+.pg-upload-pdf .kpi-label{color:var(--muted);font-size:11px;font-weight:700}
+.pg-upload-pdf .kpi-value{margin:10px 0 5px;font-size:25px;font-weight:800}
+.pg-upload-pdf .trend{color:var(--green);font-size:11px;font-weight:700}
+.pg-upload-pdf .two{grid-template-columns:1.35fr 1fr}
+.pg-upload-pdf .three{grid-template-columns:repeat(3,1fr)}
+.pg-upload-pdf .section-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
+.pg-upload-pdf .section-title h2{margin:0;font-size:17px}
+.pg-upload-pdf .section-title span{color:var(--muted);font-size:11px}
+.pg-upload-pdf .table-wrap{overflow:auto}
+.pg-upload-pdf .table{width:100%;border-collapse:collapse;min-width:720px}
+.pg-upload-pdf .table th{padding:10px 8px;text-align:left;color:#6b88a3;font-size:10px;letter-spacing:.5px;text-transform:uppercase;border-bottom:1px solid var(--line)}
+.pg-upload-pdf .table td{padding:12px 8px;border-bottom:1px solid #edf4f8;vertical-align:middle}
+.pg-upload-pdf .table tr:last-child td{border-bottom:0}
+.pg-upload-pdf .badge{display:inline-flex;align-items:center;padding:5px 8px;border-radius:99px;background:#eaf7f4;color:#07855e;font-size:10px;font-weight:700}
+.pg-upload-pdf .badge.blue{background:#eaf3ff;color:#1768c1}
+.pg-upload-pdf .badge.amber{background:#fff5da;color:#a86a00}
+.pg-upload-pdf .badge.red{background:#fff0f0;color:#c62828}
+.pg-upload-pdf .toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:15px}
+.pg-upload-pdf .control{height:39px;padding:0 11px;border:1px solid #dbeaf3;border-radius:9px;background:#fff;color:var(--navy);outline:0}
+.pg-upload-pdf .control.search-control{min-width:260px;flex:1}
+.pg-upload-pdf .label{display:block;margin:0 0 6px;color:#527493;font-size:11px;font-weight:700}
+.pg-upload-pdf .field{margin-bottom:13px}
+.pg-upload-pdf .textarea{width:100%;min-height:105px;padding:10px;resize:vertical}
+.pg-upload-pdf .form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.pg-upload-pdf .full{grid-column:1/-1}
+.pg-upload-pdf .check-row{display:flex;align-items:center;gap:8px;margin:9px 0;color:#527493}
+.pg-upload-pdf .check-row input{accent-color:var(--navy)}
+.pg-upload-pdf .progress{height:9px;border-radius:99px;background:#e9f2f7;overflow:hidden}
+.pg-upload-pdf .progress i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--blue),#40d0d5)}
+.pg-upload-pdf .chart{height:220px;display:flex;align-items:end;gap:10px;padding:18px 8px 6px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#f9fdff,#fff)}
+.pg-upload-pdf .bar{flex:1;min-width:16px;border-radius:7px 7px 0 0;background:linear-gradient(180deg,#4cc8dc,#8cd3e5)}
+.pg-upload-pdf .bar:nth-child(odd){background:linear-gradient(180deg,#012169,#2389ff)}
+.pg-upload-pdf .dropzone{display:grid;place-items:center;min-height:145px;padding:20px;border:2px dashed #7cc9ed;border-radius:12px;color:#50769a;background:#f7fcff;text-align:center}
+.pg-upload-pdf .dropzone strong{display:block;margin-bottom:5px;color:var(--navy);font-size:15px}
+.pg-upload-pdf .preview{min-height:250px;display:grid;place-items:center;border-radius:10px;color:#527493;background:#eef8fc}
+.pg-upload-pdf .modal{position:fixed;inset:0;z-index:30;display:grid;place-items:center;padding:20px;background:#01216966}
+.pg-upload-pdf .modal[hidden]{display:none}
+.pg-upload-pdf .modal-box{width:min(700px,100%);max-height:90vh;overflow:auto;border-radius:15px;padding:22px;background:#fff;box-shadow:0 20px 55px #0121693d}
+.pg-upload-pdf .modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.pg-upload-pdf .modal-head h2{margin:0;font-size:20px}
+.pg-upload-pdf .close{border:0;background:transparent;font-size:22px;color:var(--muted)}
+.pg-upload-pdf .notice{margin:14px 0;padding:11px 13px;border-radius:9px;color:#527493;background:#f2fbff}
+.pg-upload-pdf .empty{padding:30px;text-align:center;color:var(--muted)}
+@container (max-width:1100px){.pg-upload-pdf .kpis{grid-template-columns:repeat(3,1fr)}
+.pg-upload-pdf .two{grid-template-columns:1fr}}
+@container (max-width:760px){.pg-upload-pdf .sidebar{position:static;width:auto;min-height:auto}
+.pg-upload-pdf .main{margin-left:0}
+.pg-upload-pdf .topbar{padding:0 14px}
+.pg-upload-pdf .topbar .profile-copy{display:none}
+.pg-upload-pdf .content{padding:20px 14px 35px}
+.pg-upload-pdf .heading{display:block}
+.pg-upload-pdf .heading .actions{margin-top:15px}
+.pg-upload-pdf .kpis, .pg-upload-pdf .three, .pg-upload-pdf .form-grid{grid-template-columns:1fr 1fr}
+.pg-upload-pdf .search{width:42cqw}
+.pg-upload-pdf .topbar{height:60px}
+.pg-upload-pdf .card{padding:15px}}
+@container (max-width:480px){.pg-upload-pdf .kpis, .pg-upload-pdf .three, .pg-upload-pdf .form-grid{grid-template-columns:1fr}
+.pg-upload-pdf .search{width:100%}
+.pg-upload-pdf .topbar{flex-wrap:wrap;height:auto;padding:10px 14px}
+.pg-upload-pdf .top-spacer{display:none}}
+.pg-upload-pdf .notification-tabs{display:flex;gap:4px;padding:5px;border-bottom:1px solid var(--line);overflow:auto}
+.pg-upload-pdf .notification-tab{border:0;border-radius:8px 8px 0 0;padding:12px 17px;background:transparent;color:var(--navy);font-weight:700;white-space:nowrap}
+.pg-upload-pdf .notification-tab.active{color:#fff;background:var(--navy)}
+.pg-upload-pdf .notification-toolbar{display:grid;grid-template-columns:minmax(200px,1.5fr) repeat(3,minmax(120px,1fr)) auto;gap:10px;padding:14px 0}
+.pg-upload-pdf .notification-toolbar .control{width:100%}
+.pg-upload-pdf .notification-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(280px,.75fr);gap:16px}
+.pg-upload-pdf .notification-list{overflow:hidden}
+.pg-upload-pdf .notification-row{display:grid;grid-template-columns:30px minmax(220px,2fr) minmax(110px,1fr) minmax(120px,1fr) 92px 100px;align-items:center;gap:10px;padding:12px 10px;border-bottom:1px solid #edf4f8}
+.pg-upload-pdf .notification-row.header{padding:10px;color:#6b88a3;background:#effaff;font-size:10px;font-weight:700;text-transform:uppercase}
+.pg-upload-pdf .notification-row:last-child{border-bottom:0}
+.pg-upload-pdf .notification-title{display:flex;gap:10px;align-items:center}
+.pg-upload-pdf .notification-icon{display:grid;place-items:center;width:30px;height:30px;flex:none;border-radius:9px;color:#fff;background:#168fff}
+.pg-upload-pdf .notification-icon.purple{background:#7548f5}
+.pg-upload-pdf .notification-icon.green{background:#16bfa5}
+.pg-upload-pdf .notification-icon.pink{background:#df3a9c}
+.pg-upload-pdf .notification-icon.orange{background:#f2a12b}
+.pg-upload-pdf .notification-title small{display:block;margin-top:3px;color:var(--muted);font-size:10px;font-weight:400}
+.pg-upload-pdf .notification-actions{display:flex;gap:6px}
+.pg-upload-pdf .icon-btn{width:30px;height:30px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--navy);font-weight:700}
+.pg-upload-pdf .notification-preview{padding:15px;border:1px solid var(--line);border-radius:12px;background:#f6fdff}
+.pg-upload-pdf .preview-message{padding:16px;border:1px solid #b6e4f0;border-radius:12px;background:#fff}
+.pg-upload-pdf .preview-message strong{display:block;margin:7px 0;color:var(--navy)}
+.pg-upload-pdf .preview-message p{margin:0;color:#527493;font-size:11px;line-height:1.55}
+.pg-upload-pdf .notification-details{display:grid;grid-template-columns:105px 1fr;gap:10px;margin:0;font-size:11px}
+.pg-upload-pdf .notification-details dt{color:#527493}
+.pg-upload-pdf .notification-details dd{margin:0;font-weight:600}
+.pg-upload-pdf .tips{padding:14px;border-radius:10px;background:#e8fbfa;color:#527493;font-size:11px;line-height:1.7}
+.pg-upload-pdf .tips li::marker{color:var(--green)}
+.pg-upload-pdf .notification-form-layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(280px,.75fr);gap:16px}
+.pg-upload-pdf .step-card{margin-bottom:14px;padding:14px;border:1px solid #ffffff;border-radius:12px;background:#fff;box-shadow:var(--shadow)}
+.pg-upload-pdf .step-heading{display:flex;align-items:center;gap:10px;margin-bottom:14px;color:var(--navy);font-size:16px;font-weight:800}
+.pg-upload-pdf .step-number{display:grid;place-items:center;width:25px;height:25px;border-radius:50%;color:#fff;background:var(--navy);font-size:12px}
+.pg-upload-pdf .notification-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.pg-upload-pdf .notification-form-grid .full{grid-column:1/-1}
+.pg-upload-pdf .rich-editor{border:1px solid #b8dff2;border-radius:9px;overflow:hidden}
+.pg-upload-pdf .editor-toolbar{display:flex;align-items:center;gap:14px;padding:9px 12px;border-bottom:1px solid #e3f0f7;color:var(--navy);font-weight:800}
+.pg-upload-pdf .editor-body{min-height:120px;padding:14px;color:#8aa2b8;font-size:12px}
+.pg-upload-pdf .upload-box{display:grid;place-items:center;min-height:145px;border:1px dashed #7cc9ed;border-radius:10px;color:#527493;text-align:center}
+.pg-upload-pdf .upload-box strong{display:block;margin:6px 0;color:var(--navy)}
+.pg-upload-pdf .notification-actions-bar{display:flex;justify-content:flex-end;gap:10px}
+.pg-upload-pdf .switch{display:flex;align-items:center;gap:9px;color:#527493;font-size:11px}
+.pg-upload-pdf .switch input{width:37px;height:21px;accent-color:#11bfd0}
+.pg-upload-pdf .live-preview{padding:22px;border-radius:11px;background:linear-gradient(145deg,#d9fbfa,#f4ffff)}
+.pg-upload-pdf .live-preview .preview-message{padding:17px}
+.pg-upload-pdf .preview-button{display:block;width:100%;margin-top:13px;padding:10px;border:0;border-radius:8px;color:#fff;background:var(--navy);font-weight:700}
+.pg-upload-pdf .notification-date{display:flex;gap:10px}
+.pg-upload-pdf .notification-date>*{flex:1}
+.pg-upload-pdf .notification-page-number{display:flex;justify-content:space-between;align-items:center;padding:12px 10px;color:#527493;font-size:11px}
+.pg-upload-pdf .notification-page-number .pagination{display:flex;gap:5px}
+.pg-upload-pdf .notification-page-number button{width:28px;height:28px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--navy)}
+@container (max-width:1100px){.pg-upload-pdf .notification-layout, .pg-upload-pdf .notification-form-layout{grid-template-columns:1fr}
+.pg-upload-pdf .notification-toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pg-upload-pdf .notification-toolbar .search-control{grid-column:1/-1}
+.pg-upload-pdf .notification-row{min-width:780px}
+.pg-upload-pdf .notification-list .table-wrap{overflow:auto}}
+@container (max-width:600px){.pg-upload-pdf .notification-form-grid{grid-template-columns:1fr}
+.pg-upload-pdf .notification-form-grid .full{grid-column:auto}
+.pg-upload-pdf .notification-toolbar{grid-template-columns:1fr}
+.pg-upload-pdf .notification-toolbar .search-control{grid-column:auto}
+.pg-upload-pdf .notification-actions-bar{justify-content:stretch}
+.pg-upload-pdf .notification-actions-bar .btn{flex:1}
+.pg-upload-pdf .notification-page-number{display:block}
+.pg-upload-pdf .notification-page-number .pagination{margin-top:8px}}
+.pg-upload-pdf > .app-shell > .sidebar{display: none;}
+.pg-upload-pdf > .app-shell > .main{margin-left: 0;}
+.pg-upload-pdf .editor-toolbar{display:flex;gap:5px;padding:7px;border:1px solid #dbeaf3;border-bottom:0;border-radius:9px 9px 0 0;background:#f7fcff}
+.pg-upload-pdf .editor-toolbar button{min-width:29px;padding:5px 8px;border:0;border-radius:5px;color:var(--navy);background:#fff;font-weight:700}
+.pg-upload-pdf .editor-toolbar button:hover{background:var(--mint)}
+.pg-upload-pdf .editor{min-height:120px;padding:12px;border:1px solid #dbeaf3;border-radius:0 0 9px 9px;outline:0;line-height:1.6}
+.pg-upload-pdf .editor:focus{border-color:#59bdd8;box-shadow:0 0 0 3px rgb(22 185 213 / 13%)}
+.pg-upload-pdf .dropzone{min-height:150px}
+.pg-upload-pdf .dropzone.dragging{border-color:var(--blue);background:#eaf5ff}
+.pg-upload-pdf .dropzone input[type=file]{display:block;width:100%;margin-top:12px;font-size:11px}
+.pg-upload-pdf .file-meta{display:grid;grid-template-columns:1fr auto;gap:7px 12px;align-items:center}
+.pg-upload-pdf .file-meta strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pg-upload-pdf .upload-controls{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.pg-upload-pdf .upload-controls .btn{padding:7px 10px;font-size:11px}
+.pg-upload-pdf .error{display:none;margin-bottom:15px;padding:10px 12px;border-radius:8px;color:#b42318;background:#fff0f0;font-size:12px}
+.pg-upload-pdf .error.visible{display:block}
+.pg-upload-pdf .helper{color:var(--muted);font-size:10px;line-height:1.5}
+.pg-upload-pdf .backend-note{border-left:3px solid var(--blue)}
+.pg-upload-pdf .reader{min-height:310px;display:grid;place-items:center;padding:18px;border-radius:10px;color:#527493;background:#eef8fc;text-align:center}
+.pg-upload-pdf .reader-page{width:min(230px,80%);min-height:230px;padding:23px 16px;border:1px solid #d6e8f1;border-radius:4px;background:#fff;box-shadow:0 5px 14px #01216918}
+.pg-upload-pdf .reader-page strong{display:block;font-size:18px;line-height:1.25;color:var(--navy)}
+.pg-upload-pdf .reader-page span{display:block;margin-top:12px;color:var(--muted);font-size:11px}
+.pg-upload-pdf .reader-controls{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:10px}
+.pg-upload-pdf .reader-controls .btn{padding:6px 9px;font-size:11px}
+.pg-upload-pdf .image-workflow{display:none}
+.pg-upload-pdf .image-workflow.visible{display:block}
+.pg-upload-pdf .image-list{display:grid;gap:8px;margin-top:12px}
+.pg-upload-pdf .image-item{display:grid;grid-template-columns:31px 1fr auto;align-items:center;gap:9px;padding:9px;border:1px solid var(--line);border-radius:8px;background:#f9fdff}
+.pg-upload-pdf .image-order{display:grid;width:26px;height:26px;place-items:center;border-radius:6px;color:var(--navy);background:var(--mint);font-weight:800}
+.pg-upload-pdf .image-item strong{display:block;font-size:11px}
+.pg-upload-pdf .image-item small{color:var(--muted);font-size:10px}
+.pg-upload-pdf .image-actions{display:flex;gap:4px}
+.pg-upload-pdf .image-actions button{padding:4px 6px;border:1px solid var(--line);border-radius:5px;color:var(--navy);background:#fff;font-size:10px}
+.pg-upload-pdf .conversion{display:none}
+.pg-upload-pdf .conversion.visible{display:block}
+.pg-upload-pdf .progress-label{display:flex;justify-content:space-between;margin-bottom:7px;color:var(--muted);font-size:11px}
+.pg-upload-pdf .published-summary{display:none}
+.pg-upload-pdf .published-summary.visible{display:block}
+.pg-upload-pdf .status-line{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:12px}
+.pg-upload-pdf .status-line:last-child{border-bottom:0}
+@container (max-width:760px){.pg-upload-pdf .file-meta{grid-template-columns:1fr}
+.pg-upload-pdf .reader{min-height:260px}}

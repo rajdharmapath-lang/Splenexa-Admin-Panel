@@ -1,0 +1,115 @@
+.pg-student-performance{--navy:#0a2f78;--ink:#0b2a5e;--mut:#5f7599;--line:#e3eef6;--grn:#12b886;box-sizing:border-box;color-scheme:light}
+.pg-student-performance, .pg-student-performance *{box-sizing:inherit;margin:0;padding:0}
+.pg-student-performance{font-family:Poppins,'Segoe UI',Arial,sans-serif;font-size:12px;color:var(--ink);background:linear-gradient(180deg,#8fe6ee,#c9f6f6 40%,#d9fbf7);display:flex;min-height:100vh}
+.pg-student-performance aside{width:227px;flex:none;background:linear-gradient(180deg,#0a3f95 0%,#0c58b0 45%,#12a3c9 80%,#2cd0c8 100%);color:#fff;padding:20px 8px;display:flex;flex-direction:column;position:sticky;top:0;height:100vh}
+.pg-student-performance .logo{display:flex;align-items:center;gap:10px;padding:0 12px 22px}
+.pg-student-performance .logo i{font-size:34px}
+.pg-student-performance .logo b{font-size:30px;font-weight:600;line-height:1;display:block}
+.pg-student-performance .logo small{display:block;color:#5ee3ff;font-size:15px;font-weight:500}
+.pg-student-performance nav a{display:flex;align-items:center;gap:14px;padding:0 14px;height:44px;margin-bottom:3px;border-radius:8px;font-size:13px;color:#fff;text-decoration:none;white-space:nowrap}
+.pg-student-performance nav a i{width:24px;text-align:center;font-size:20px}
+.pg-student-performance nav a.on{background:#a4f0ee;color:#0b3a7a;font-weight:600;height:44px}
+.pg-student-performance .tag{margin-top:auto;padding:0 14px 6px}
+.pg-student-performance .tag i{font-size:46px}
+.pg-student-performance .tag p{font-size:16px;font-weight:600;line-height:1.35;margin:10px 0 6px}
+.pg-student-performance .tag small{display:block;font-size:13px;line-height:1.35}
+.pg-student-performance main{flex:1;min-width:0}
+.pg-student-performance .top{height:62px;display:flex;align-items:center;padding:0 22px;gap:16px;background:linear-gradient(90deg,#8fe6ee,#7ee0ee)}
+.pg-student-performance .search{width:510px;max-width:100%;height:34px;background:#d6f6fb;border-radius:6px;display:flex;align-items:center;gap:12px;padding:0 14px;color:#27456f}
+.pg-student-performance .search input{border:0;background:none;outline:none;flex:1;font:11px Poppins;color:var(--ink)}
+.pg-student-performance .top .r{margin-left:auto;display:flex;align-items:center;gap:30px}
+.pg-student-performance .bell{position:relative;font-size:20px;color:#0a2f78}
+.pg-student-performance .bell em{position:absolute;top:-6px;right:-6px;background:#e53935;color:#fff;border-radius:50%;width:13px;height:13px;font:600 8px/13px Poppins;text-align:center}
+.pg-student-performance .me{display:flex;align-items:center;gap:10px;font-size:11px;color:#0a3b8c}
+.pg-student-performance .me b{display:block;font-size:13px;font-weight:600}
+.pg-student-performance .av{width:36px;height:36px;border-radius:50%;background:#0a2f78;color:#fff;font:600 16px/36px Poppins;text-align:center}
+.pg-student-performance .wrap{padding:14px 18px 22px 22px}
+.pg-student-performance .hd{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px}
+.pg-student-performance .hd .l{display:flex;gap:18px;align-items:flex-start}
+.pg-student-performance .hd .l>i{font-size:22px;color:var(--navy);margin-top:6px}
+.pg-student-performance h1{font-size:25px;font-weight:700;color:var(--navy);line-height:1.3}
+.pg-student-performance .hd p{font-size:13px;color:#1a5db0}
+.pg-student-performance .date{background:#fff;border:1px solid #cfe6f2;border-radius:8px;padding:9px 14px;display:flex;gap:12px;align-items:center;font-size:11.5px}
+.pg-student-performance .card{background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(30,120,170,.1);padding:16px;min-width:0}
+.pg-student-performance .prof{display:flex;align-items:center;gap:18px;position:relative;padding:18px 16px;margin-bottom:12px}
+.pg-student-performance .big{width:70px;height:70px;border-radius:50%;background:#0b7fd0;color:#fff;font:600 24px/70px Poppins;text-align:center;flex:none}
+.pg-student-performance .pi{width:260px;flex:none}
+.pg-student-performance .pi h2{font-size:17px;font-weight:600;color:var(--navy);display:flex;align-items:center;gap:14px}
+.pg-student-performance .pi div{display:flex;align-items:center;gap:12px;font-size:12px;margin-top:5px}
+.pg-student-performance .pi div i{color:#0a3f95;font-size:14px;width:16px}
+.pg-student-performance .st{background:#d5f5e8;color:#12a672;font:500 9.5px Poppins;padding:3px 9px;border-radius:10px;display:inline-flex;align-items:center;gap:6px}
+.pg-student-performance .st:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.pg-student-performance .tiles{display:flex;gap:8px;flex:1}
+.pg-student-performance .tile{background:#eef8fc;border:1px solid #e0eff7;border-radius:6px;padding:14px;display:flex;align-items:center;gap:14px;height:100px;flex:1}
+.pg-student-performance .tile h5{font-size:11px;font-weight:500;margin-bottom:5px}
+.pg-student-performance .tile .v{font-size:21px;font-weight:600;line-height:1.2}
+.pg-student-performance .tile small{font-size:10.5px;color:var(--mut)}
+.pg-student-performance .ti{width:46px;height:46px;border-radius:50%;background:#bdecf6;display:grid;place-items:center;font-size:21px;color:#0a3f95;flex:none}
+.pg-student-performance .ring{width:66px;height:66px;border-radius:50%;display:grid;place-items:center;flex:none;background:conic-gradient(#12b886 0 68%,#d8f2f0 68%)}
+.pg-student-performance .ring b{width:50px;height:50px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:12px;color:var(--navy)}
+.pg-student-performance .vp{position:absolute;top:-4px;right:8px;background:#fff;border:1px solid #bcd8ec;border-radius:6px;padding:7px 13px;font:500 9.5px Poppins;color:var(--navy);display:flex;gap:8px;align-items:center;box-shadow:0 2px 6px rgba(30,120,170,.12)}
+.pg-student-performance .tabs{display:flex;gap:48px;padding:0 20px;height:48px;align-items:center;margin-bottom:14px}
+.pg-student-performance .tabs span{display:flex;align-items:center;gap:12px;font-size:11.5px;height:100%;color:#27456f;padding:0 16px;margin:0 -16px}
+.pg-student-performance .tabs span i{color:var(--navy);font-size:15px}
+.pg-student-performance .tabs .on{font-weight:600;color:var(--navy);border-bottom:3px solid var(--navy);border-radius:2px}
+.pg-student-performance .cols{display:grid;grid-template-columns:1.355fr 1fr;gap:12px;align-items:start}
+.pg-student-performance .sub{display:grid;grid-template-columns:.93fr 1fr;gap:12px;margin-bottom:12px}
+.pg-student-performance .stack{display:grid;gap:12px}
+.pg-student-performance h3{font-size:15px;font-weight:600;color:var(--navy);display:flex;align-items:center;gap:12px}
+.pg-student-performance h3 i{font-size:19px}
+.pg-student-performance .ch{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.pg-student-performance a.va{font-size:10px;color:#0b5cc4;text-decoration:underline}
+.pg-student-performance .cp{display:grid;grid-template-columns:38px 1fr 40px 80px 14px;align-items:center;gap:8px;height:50px;font-size:11px}
+.pg-student-performance .ci{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:17px}
+.pg-student-performance .cp b{font-weight:500;display:block;margin-bottom:5px;font-size:11.5px}
+.pg-student-performance .bar{height:6px;border-radius:3px;background:#e1eaf5;overflow:hidden}
+.pg-student-performance .bar i{display:block;height:100%;border-radius:3px}
+.pg-student-performance .cp .p{font-weight:600;font-size:12px;text-align:right}
+.pg-student-performance .cp .m{color:var(--mut);font-size:10px;text-align:right}
+.pg-student-performance .cp .a{color:var(--navy);font-size:10px}
+.pg-student-performance .dn{display:flex;align-items:center;gap:22px;padding:10px 0 12px 4px}
+.pg-student-performance .donut{width:145px;height:145px;border-radius:50%;display:grid;place-items:center;flex:none}
+.pg-student-performance .donut div{width:103px;height:103px;border-radius:50%;background:#fff;display:grid;place-content:center;text-align:center;font-size:11.5px;line-height:1.25}
+.pg-student-performance .donut b{font-size:21px}
+.pg-student-performance .ds{flex:1;display:grid;gap:20px;font-size:11.5px}
+.pg-student-performance .ds div{display:grid;grid-template-columns:14px 1fr 24px;gap:10px;align-items:center}
+.pg-student-performance .ds i{width:11px;height:11px;border-radius:50%}
+.pg-student-performance .ds b{text-align:right;font-weight:600}
+.pg-student-performance .tot{background:#eef6fc;border-radius:6px;padding:14px 12px;display:flex;justify-content:space-between;font-size:11px;height:64px}
+.pg-student-performance .tot b{font-weight:600;font-size:12px;margin-top:6px}
+.pg-student-performance .vd{display:grid;grid-template-columns:67px 1fr auto;gap:15px;align-items:center;height:56px;font-size:10px;color:var(--mut)}
+.pg-student-performance .th{width:67px;height:44px;border-radius:3px;background:linear-gradient(135deg,#1b3d66,#0b1d3a);display:grid;place-items:center;color:#fff;font-size:15px}
+.pg-student-performance .vd b{display:block;color:var(--navy);font-size:10.5px;font-weight:600;margin-bottom:6px}
+.pg-student-performance .vd span{margin-right:14px}
+.pg-student-performance .pl{font:500 9px Poppins;padding:4px 10px;border-radius:10px;display:inline-flex;align-items:center;gap:6px}
+.pg-student-performance .pl:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.pg-student-performance .ok{background:#d5f5e8;color:#12a672}
+.pg-student-performance .ip{background:#d6e8fc;color:#2a6fd0}
+.pg-student-performance table{width:100%;border-collapse:collapse;font-size:9.5px}
+.pg-student-performance thead tr{background:#eef6fc}
+.pg-student-performance th{text-align:left;padding:9px 10px;font-weight:600;color:var(--navy)}
+.pg-student-performance td{padding:0 10px;height:30.5px;border-top:1px solid var(--line)}
+.pg-student-performance .tw{border:1px solid var(--line);border-radius:5px;overflow:hidden}
+.pg-student-performance .note{background:#e8f4fc;border-radius:6px;padding:10px 12px;margin-top:14px;font-size:8.5px;color:#27456f;display:flex;gap:12px;align-items:center}
+.pg-student-performance .note i{color:#2a6fd0;font-size:16px}
+.pg-student-performance .ps{display:flex;align-items:center;gap:30px;padding:20px 2px 4px}
+.pg-student-performance .ps .donut{width:136px;height:136px;background:conic-gradient(#12b886 0 72%,#cdf2e8 72%)}
+.pg-student-performance .ps .donut div{width:102px;height:102px;font-size:10.5px}
+.pg-student-performance .ps .donut b{font-size:23px}
+.pg-student-performance .ps .rows{flex:1;display:grid;gap:10px}
+.pg-student-performance .ps .rows div{display:grid;grid-template-columns:14px 60px 1fr 34px;gap:6px;align-items:center;font-size:10px}
+.pg-student-performance .ps .rows i{width:8px;height:8px;border-radius:50%}
+.pg-student-performance .ps .rows b{text-align:right;font-weight:600;font-size:11px}
+@container (max-width:1200px){.pg-student-performance .cols, .pg-student-performance .sub{grid-template-columns:1fr}
+.pg-student-performance .prof{flex-wrap:wrap}
+.pg-student-performance .vp{position:static}}
+@container (max-width:760px){.pg-student-performance aside{display:none}
+.pg-student-performance .hd{flex-direction:column;gap:8px}
+.pg-student-performance .me div{display:none}
+.pg-student-performance .tiles{flex-wrap:wrap}
+.pg-student-performance .tabs{gap:30px;overflow-x:auto}
+.pg-student-performance .tw{overflow-x:auto}
+.pg-student-performance table{min-width:520px}}
+.pg-student-performance aside, .pg-student-performance .sidebar, .pg-student-performance .nav-s{display:none!important}
+.pg-student-performance .main-area{margin-left:0!important}
+.pg-student-performance .frame-wrap, .pg-student-performance .app, .pg-student-performance{min-width:0!important}
